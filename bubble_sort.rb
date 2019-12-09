@@ -15,7 +15,6 @@ def bubble_sort(array)
 end
 
 def bubble_sort_by(array)
-
   n = array.length
   loop do
     newN = 0
