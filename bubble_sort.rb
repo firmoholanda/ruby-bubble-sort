@@ -5,9 +5,9 @@ def bubble_sort_by(array)
   loop do
     new_n = 0
     (1..n - 1).each do |i|
-      result = yield(array[i-1], array[i])
-      if result > 0
-        array[i-1], array[i] = array[i], array[i-1]
+      result = yield(array[i - 1], array[i])
+      if result.positive?
+        array[i - 1], array[i] = array[i], array[i - 1]
         new_n = i
       end
     end
@@ -20,3 +20,6 @@ end
 def bubble_sort(array)
   bubble_sort_by(array) { |left, right| left - right }
 end
+
+array = [5,14,200,5,0,2]
+puts bubble_sort([5,14,200,5,0,2])
