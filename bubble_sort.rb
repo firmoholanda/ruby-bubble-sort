@@ -18,7 +18,6 @@ def bubble_sort_by(array)
   n = array.length
   loop do
     newN = 0
-    
     for i in (1..n-1)
       result = yield(array[i-1],array[i])      
       if result > 0

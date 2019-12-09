@@ -2,30 +2,28 @@
 
 this project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
 
-in this project, we will be implementing the buble
+in this project, we will be implementing the bubble sort algorithm.
 
 
 
 ## 🔗 link to assignment
 
-the assignment can be found in the Odin Project's HTML and CSS course that can be found [here]https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap).
+the assignment can be found in the Odin Project's HTML and CSS course that can be found [here](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks).
 
 
 
 ## 📡 technologies used
 
-- html
-- css
-- bootstrap
+- ruby
 - github
 
-basic HTML5, CSS3, bootstrap 4 and github was used on this solo project.
+basic ruby and github was used on this project.
 
 
 
 ## 🚀 the project
 
-this project can be found in https://github.com/firmoholanda/newsweek.com-clone
+this project can be found in https://github.com/firmoholanda/ruby-bubble-sort
 
 ### ✨ [live version](https://raw.githack.com/firmoholanda/newsweek.com-clone/development/index.html)
 
