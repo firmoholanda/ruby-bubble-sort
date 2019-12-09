@@ -25,7 +25,7 @@ basic ruby and github was used on this project.
 
 this project can be found in https://github.com/firmoholanda/ruby-bubble-sort
 
-### ✨ [live version](https://raw.githack.com/firmoholanda/newsweek.com-clone/development/index.html)
+### ✨ [code picture]
 
 <a href="https://github.com/firmoholanda/ruby-bubble-sort/blob/buble-sort/img/ruby-bubble-sort.png" target="_blank">
     <img alt="page animation" src="https://github.com/firmoholanda/ruby-bubble-sort/blob/buble-sort/img/ruby-bubble-sort.png"/>
