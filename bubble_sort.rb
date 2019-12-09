@@ -32,7 +32,3 @@ def bubble_sort_by(array)
   end
   return array
 end
-
-# puts bubble_sort([4, 3, 78, 2, 0, 2]).to_s
-puts bubble_sort_by([4, 3, 78, 2, 0, 2]) { |firstV, secondV| firstV - secondV }
-# puts bubble_sort_by([4, 3, 78, 0, 100, 20]) { |firstV, secondV| firstV - secondV }
