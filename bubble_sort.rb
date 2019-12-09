@@ -14,6 +14,4 @@ def bubble_sort(array)
   return array
 end
 
-array = [2, 3, 100, 3, 5, 4, 10, 7]
-
-puts bubble_sort(array)
+puts bubble_sort([4, 3, 78, 2, 0, 2]).to_s
