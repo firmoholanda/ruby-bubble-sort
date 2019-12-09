@@ -1,19 +1,19 @@
 def bubble_sort(array)
-  n = array.lenght
-
-  loop do
+  n = array.length
+  begin
     newN = 0
-  
-    for i = 1 in n-1 do 
-      if array[i-1] > a[i]
-        array[i], array[i + 1] = array[i + 1], array[i] 
+     (0..n-1).each do |i|
+      #puts i.to_s + " interation"
+      if array[i-1] > array[i]
+        array[i-1], array[i] = array[i], array[i-1] 
         newN = i
       end
     end
     n = newN
-  break if n <= 1
+  end while n <= 1
+  return array
 end
 
-array = [1,3,5,2,4]
+array = [2, 3, 100, 3, 5, 4, 10, 7]
 
-bubble_sort(array)
+puts bubble_sort(array)
